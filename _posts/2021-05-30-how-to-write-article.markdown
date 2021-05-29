@@ -2,30 +2,33 @@
 layout: post
 title:  "マークダウンの書き方"
 date:   2021-05-30 04:51:00 +0900
-categories: markdown begineer guide
+categories: article guide
 lang: ja_JP
 ---
-まーくだうんのかきかたとかのせたいです
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+マークダウンの書き方サンプル
 
-Jekyll requires blog post files to be named according to the following format:
+# \# h1見出し
+## \#\# h2見出し
+### \#\#\# h3見出し
+#### \#\#\#\# h4見出し
+##### \#\#\#\#\# h5見出し
+###### \#\#\#\#\#\# h6 見出し
 
-`YEAR-MONTH-DAY-title.MARKUP`
+[リンク][hiuctf-home]を表示
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+シンタックスハイライトの[言語][jekyll-support-languages]と[オプション][jekyll-linenos]
 
-Jekyll also offers powerful support for code snippets:
+{% highlight py linenos %}
+def nothing_to_do():
+  pass # nothing happens
+{% endhighlight }
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
 
 Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/
+[jekyll-support-languages]: https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers
+[jekyll-linenos]: https://jekyllrb.com/docs/liquid/tags/#line-numbers
+[hiuctf-home]: https://hiuctf.club
