@@ -5,5 +5,3 @@ _site
 vendor
 tmp
 !tmp/.gitnone
-_includes
-_layouts
