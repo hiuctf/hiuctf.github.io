@@ -2,7 +2,7 @@
 layout: post
 title:  "マークダウンの書き方"
 date:   2021-05-30 04:51:00 +0900
-categories: how to
+categories: markdown begineer guide
 lang: ja_JP
 ---
 まーくだうんのかきかたとかのせたいです
