@@ -18,7 +18,7 @@ lang: ja_JP
 
 シンタックスハイライトの[言語][jekyll-support-languages]と[オプション][jekyll-linenos]
 
-{% highlight py linenos %}
+{% highlight py %}
 def nothing_to_do():
   pass # nothing happens
 {% endhighlight %}
