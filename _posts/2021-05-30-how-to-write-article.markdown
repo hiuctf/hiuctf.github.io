@@ -16,7 +16,7 @@ lang: ja_JP
 
 [リンク][hiuctf-home]を表示
 
-シンタックスハイライトの[言語][jekyll-support-languages]と[オプション][jekyll-linenos]
+シンタックスハイライトの[対応言語][jekyll-support-languages]と[オプション][jekyll-linenos]
 
 {% highlight py %}
 def nothing_to_do():
