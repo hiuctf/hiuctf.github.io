@@ -18,10 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: HIU-CTF
+title: HIU-CTF同好会
 email: hiuctf.club@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  HIU-CTF
+  HIU-CTF同好会
 #同好会HPです。Writeupや日々の学びをアウトプットして知識定着に役立てたいと考えます。
 #メンバーは自由に記事を投稿できる仕組みです。
 #  Write an awesome description for your new site here. You can edit this
@@ -47,14 +47,17 @@ plugins:
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
-# exclude:
+exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
 #   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
+  - Gemfile
+  - Gemfile.lock
 #   - node_modules/
 #   - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+  - CNAME
+  - README.md
+  
