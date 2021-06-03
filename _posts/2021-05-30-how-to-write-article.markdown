@@ -2,8 +2,10 @@
 layout: post
 title:  "マークダウンの書き方"
 date:   2021-05-30 04:51:00 +0900
-categories: article guide
+category: article
+tags: guide
 lang: ja_JP
+author: 3y
 ---
 マークダウンの書き方サンプル
 
