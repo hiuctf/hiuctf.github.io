@@ -4,4 +4,5 @@
 
 layout: home
 lang: ja_JP
+list_titles: 直近の投稿
 ---
