@@ -1,18 +1,23 @@
 ---
 layout: page
-title: About
+title: HIU-CTF同好会について
 permalink: /about/
+lang: ja_JP
+date: 2021-06-04 10:36:16 +0900
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+こちらはHIU-CTF同好会のホームページとなります。
+まだ形だけのサイトになりますが、同好会向けの情報や活動などを記事にして残せたらと考えております。
+ホーム: [hiuctf.club](https://hiuctf.club)
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+このサイトはGithub PagesとJekyllとminimaテーマによって作られています。
+GitHub repos: [jekyll](https://github.com/jekyll/jekyll) |
+[minima](https://github.com//minima)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+同好会メンバーは自由に記事を書くことができます。
+興味があれば3yに言ってください。
+Github repo: [hiuctf][hiuctf-organization] /
+[hiuctf.github.io](https://github.com/jekyll/jekyll)
 
 
-[jekyll-organization]: https://github.com/jekyll
+[hiuctf-organization]: https://github.com/hiuctf
