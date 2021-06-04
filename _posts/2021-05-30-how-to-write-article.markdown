@@ -91,13 +91,21 @@ def nothing_to_do():
 
 ## ページ・サイト変数読み込み
 
+
+#### 原文
+
 サイトのタイトル(\{\{ site.title }})を表示したり、サイトの\[URL](\{\{ site.url }})を表示したり、ページのタイトル(\{\{ page.title }})を表示したりできます。
 
+
+#### 整形後
 
 サイトのタイトル({{ site.title }})を表示したり、サイトの[URL]({{ site.url }})を表示したり、ページのタイトル({{ page.title }})を表示したりできます。
 
 
 ## 画像挿入
+
+
+#### 原文
 
 \!\[aaaa777 avatar](https://user-images.githubusercontent.com/27488794/120819563-ab021380-c58e-11eb-94f6-a0ea6dfeee76.jpg)
 
