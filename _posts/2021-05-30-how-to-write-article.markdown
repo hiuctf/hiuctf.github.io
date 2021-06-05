@@ -30,6 +30,7 @@ author: 3y
 #### 原文
 
 {% highlight html linenos %}
+{% raw %}
 見出し以外のテキストは改行しても連続します。
 改行するには、空白の行を挟むか、\<br\>タグを使用します。
 
@@ -38,6 +39,7 @@ author: 3y
 \<br\>タグはHTMLでは改行を意味します。<br>
 また、バックスラッシュを使うことでタグや強調構文のエスケープができます。
 {% endhighlight %}
+{% endraw %}
 
 #### 整形後
 
@@ -47,7 +49,7 @@ author: 3y
 空白行を挟むと\<p\>タグが分割されます。
 
 \<br\>タグはHTMLでは改行を意味します。<br>
-\<br\>タグは\</br\>を省略できます。
+また、バックスラッシュを使うことでタグや強調構文のエスケープができます。
 
 
 ## ハイパーリンク
@@ -55,13 +57,14 @@ author: 3y
 
 #### 原文
 
-\[リンク]\[hiuctf-home]を表示 \[リンク]\(https://hiuctf.club)を表示
-
+{% raw %}
+[リンク][hiuctf-home]を表示 [リンク](https://hiuctf.club)を表示
+{% endraw %}
 
 #### 整形後
 
 [QiitaのMarkdown記法の参考ページ](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)を表示
-[LiquidのMarkdown記法の参考ページ](https://shopify.github.io/liquid/)を表示
+[LiquidのMarkdown記法の参考ページ](https://qiita.com/mt_west/items/7a4f41c749ed582330e9)を表示
 
 シンタックスハイライトの[対応言語][jekyll-support-languages]と[オプション][jekyll-linenos]
 
@@ -70,14 +73,14 @@ author: 3y
 
 #### 原文
 
-\`myfunction()\`の引数に\`res\_string.\_\_dict\_\_\`を代入してみましょう。
+{% raw %}
+`myfunction()`の引数に`res_string.__dict__`を代入してみましょう。
 
-
-\{\% highlight py %\}<br>
-def nothing\_to\_do():<br>
-  pass # nothing happens<br>
-\{\% endhighlight %\}<br>
-
+{% highlight py %}
+def nothing_to_do():
+  pass # nothing happens
+{% endhighlight %}
+{% endraw %}
 
 #### 整形後
 
