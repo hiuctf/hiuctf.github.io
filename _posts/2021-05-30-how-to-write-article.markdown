@@ -73,6 +73,7 @@ author: 3y
 
 #### 原文
 
+{% highlight md %}
 {% raw %}
 `myfunction()`の引数に`res_string.__dict__`を代入してみましょう。
 
@@ -81,6 +82,7 @@ def nothing_to_do():
   pass # nothing happens
 {% endhighlight %}
 {% endraw %}
+{% endhighlight %}
 
 #### 整形後
 
@@ -97,8 +99,11 @@ def nothing_to_do():
 
 #### 原文
 
-サイトのタイトル(\{\{ site.title }})を表示したり、サイトの\[URL](\{\{ site.url }})を表示したり、ページのタイトル(\{\{ page.title }})を表示したりできます。
-
+{% highlight md %}
+{% raw %}
+サイトのタイトル({{ site.title }})を表示したり、サイトの[URL]({{ site.url }})を表示したり、ページのタイトル({{ page.title }})を表示したりできます。
+{% endraw %}
+{% endhighlight %}
 
 #### 整形後
 
@@ -110,8 +115,11 @@ def nothing_to_do():
 
 #### 原文
 
-\!\[aaaa777 avatar](https://user-images.githubusercontent.com/27488794/120819563-ab021380-c58e-11eb-94f6-a0ea6dfeee76.jpg)
-
+{% highlight md %}
+{% raw %}
+![aaaa777 avatar](https://user-images.githubusercontent.com/27488794/120819563-ab021380-c58e-11eb-94f6-a0ea6dfeee76.jpg)
+{% raw %}
+{% endhighlight %}
 
 #### 整形後
 
@@ -123,8 +131,11 @@ def nothing_to_do():
 
 #### 原文
 
+{% highlight md %}
+{% raw %}
 例えば\*\*太字にしたり\*\*、\~\~取り消し線を引いたり\~\~、\*斜体にしたり\*、\~\~\*\*\*全部合わせたり\*\*\*\~\~、できます。
-
+{% raw %}
+{% endhighlight %}
 
 #### 整形後
 
