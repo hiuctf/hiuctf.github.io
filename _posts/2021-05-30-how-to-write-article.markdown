@@ -38,8 +38,8 @@ author: 3y
 
 \<br\>タグはHTMLでは改行を意味します。<br>
 また、バックスラッシュを使うことでタグや強調構文のエスケープができます。
-{% endhighlight %}
 {% endraw %}
+{% endhighlight %}
 
 #### 整形後
 
@@ -118,7 +118,7 @@ def nothing_to_do():
 {% highlight md %}
 {% raw %}
 ![aaaa777 avatar](https://user-images.githubusercontent.com/27488794/120819563-ab021380-c58e-11eb-94f6-a0ea6dfeee76.jpg)
-{% raw %}
+{% endraw %}
 {% endhighlight %}
 
 #### 整形後
@@ -134,7 +134,7 @@ def nothing_to_do():
 {% highlight md %}
 {% raw %}
 例えば\*\*太字にしたり\*\*、\~\~取り消し線を引いたり\~\~、\*斜体にしたり\*、\~\~\*\*\*全部合わせたり\*\*\*\~\~、できます。
-{% raw %}
+{% endraw %}
 {% endhighlight %}
 
 #### 整形後
