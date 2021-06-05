@@ -33,8 +33,8 @@ url: "https://hiuctf.club" # the base hostname & protocol for your site, e.g. ht
 github_username:  hiuctf
 
 # Build settings
-theme: jekyll-theme-slate 
-#theme jekyll-theme-cayman
+theme: minima 
+#theme jekyll-theme-slate
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
