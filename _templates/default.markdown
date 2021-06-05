@@ -9,7 +9,6 @@ category: article
 
 tags: uncategorized
 lang: ja_JP
-#author: %%YOUR_NAME%%
 ---
 
 write your awesome article!
