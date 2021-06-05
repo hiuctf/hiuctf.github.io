@@ -10,7 +10,7 @@ category: article
 tags: uncategorized
 lang: ja_JP
 author: 3y
-title: Github PagesによるWebブログ制作の手引
+title: Github PagesによるWebブログ制作
 date: 2021-06-05 23:45:33 +0900
 ---
 
