@@ -28,8 +28,8 @@ date: 2021-06-05 23:45:33 +0900
 
 ## 1. Githubでリポジトリを作成する
 
-Githubにログインした状態で、右上の＋▼を選びます。
-![new-repo](https://user-images.githubusercontent.com/27488794/120899058-c6d9e800-c668-11eb-951c-088d427a5c5b.png)
+Githubにログインした状態で、右上の＋▼を選びます。<br>
+![new-repo](https://user-images.githubusercontent.com/27488794/120899058-c6d9e800-c668-11eb-951c-088d427a5c5b.png)<br>
 すると、new repositoryという欄が出るので選択します。
 
 作成するときはリポジトリ名を`[ユーザー名].github.io`とします。<br>
