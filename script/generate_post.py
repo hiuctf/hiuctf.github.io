@@ -2,7 +2,8 @@
 # ユーザー設定ファイルを作る
 # #author: のようなタグとマッチさせて置き換える
 # 既存記事のアップデート日時の挿入も可能にする
-# コマンドプロンプトから入力した時の文字コード変換が必要
+# 文字コードのせいでコマンドプロンプト非対応
+# 可読性無視して書いたコードにコメント付けただけなので書き直せるなら書き直したい
 
 import os
 import sys
@@ -20,17 +21,30 @@ template_filename = "_templates/default.markdown"
 
 title = ""
 if len(sys.argv) < 2:
-    print("新規記事名を入力してください：")
+    print("新規記事名（記事のトップに表示されます）を入力してください(日本語を推奨、無記入Enterで自動入力)：")
     title = input()
+    if title == "":
+        title = datetime.datetime.now().strftime("article%Y-%m-%d-%H-%M-%S")
 else:
     title = sys.argv[1]
     
-#title = unicode()
+filetitle = ""
+if len(sys.argv) < 3:
+    print("ファイル名（URLに使われます）を入力してください(英語を推奨、無記入Enterで自動入力)：")
+    filetitle = input()
+    if filetitle == "":
+        filetitle = datetime.datetime.now().strftime("article%Y-%m-%d-%H-%M-%S")
+else:
+    filetitle = sys.argv[2]
+
+print("記事の作成者のニックネームを教えて下さい")
+author = input()
 
 # attr
 
 attributes = {
     "title": title,
+    "author" author,
     "date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S +0900")
 }
 
@@ -38,9 +52,9 @@ attributes = {
 # このディレクトリの絶対パスの生成
 # 日付と記事名を結合した新規マークダウン記事のファイル名の生成
 
-directory = os.path.abspath(os.path.dirname(__file__))
+directory = os.path.join(os.path.abspath(os.path.dirname(__file__)), "..")
 article_dir = os.path.join(directory, "_posts")
-filename = "{}-{}.markdown".format(datetime.datetime.now().strftime("%Y-%m-%d"), title)
+filename = "{}-{}.markdown".format(datetime.datetime.now().strftime("%Y-%m-%d"), filetitle)
 
 
 # テンプレートファイルの絶対パスの生成
