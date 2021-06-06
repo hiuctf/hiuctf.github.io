@@ -44,7 +44,7 @@ author = input()
 
 attributes = {
     "title": title,
-    "author" author,
+    "author": author,
     "date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S +0900")
 }
 
