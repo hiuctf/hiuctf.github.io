@@ -1,0 +1,17 @@
+---
+# template tags (but you can change these)
+
+layout: post
+category: article
+
+
+# tags user defined
+
+tags: 日記
+lang: ja_JP
+title: dialy2021-06-08-11-36-25
+author: 3y
+date: 2021-06-08 11:36:28 +0900
+---
+
+write your awesome article!
