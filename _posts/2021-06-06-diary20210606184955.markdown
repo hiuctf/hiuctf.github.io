@@ -12,6 +12,7 @@ lang: ja_JP
 title: diary2021-06-06-18-49-31
 author: 3y
 date: 2021-06-06 18:49:58 +0900
+hide_in_home: True
 ---
 
 メモ書きというか日記というか。
