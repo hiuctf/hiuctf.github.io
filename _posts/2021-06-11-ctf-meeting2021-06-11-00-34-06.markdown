@@ -52,5 +52,5 @@ GithubPagesで広告載せるのNGだしマネタイズするにはCTFはちょ�
 やっぱり自分が調べた内容にちゃんとレスポンスが来るのが良いのだと思います、全員が積極的に参加できるようにこれからのミーティングでは全員に声をかける意識を持ちたいですね
 -->
 
-[nitic-ctf2-hashtag](https://twitter.com/hashtag/nitic_ctf_2?src=hashtag_click)
-[cakectf-bloglink](https://ptr-yudai.hatenablog.com/entry/2021/05/23/141108)
+[nitic-ctf2-hashtag]: https://twitter.com/hashtag/nitic_ctf_2?src=hashtag_click
+[cakectf-bloglink]: https://ptr-yudai.hatenablog.com/entry/2021/05/23/141108
