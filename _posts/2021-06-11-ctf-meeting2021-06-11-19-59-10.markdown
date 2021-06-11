@@ -22,7 +22,7 @@ attendees: 多木 辻永 秋葉 替地 清水 澤井
 分野別希望調査はこんな感じになりました（今日いた人のみ）<br>
 間違ってたらコメントください
 
-|Pwn|Rev|Cpt|Web(Ntw)|
+|Pwn|Reversing|Crypto|Web/Network|
 |:-:|:-:|:-:|:-:|
 |多木|辻永|澤井、替地|秋葉、清水|
 
