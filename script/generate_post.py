@@ -10,10 +10,27 @@ import sys
 import datetime
 import shutil as sh
 
+import blogtools
+
 
 # デフォルトのテンプレートファイル
 
 template_filename = "_templates/default.markdown"
+
+
+# このディレクトリの親ディレクトリの絶対パスの生成
+# 日付と記事名を結合した新規マークダウン記事のファイル名の生成
+
+directory = os.path.join(os.path.abspath(os.path.dirname(__file__)), "..")
+lib_path = os.path.join(directory, "script/blogtools")
+article_dir = os.path.join(directory, "_posts")
+
+
+
+# テンプレートファイルの絶対パスの生成
+# 新規記事ファイルの絶対パスの生成
+
+template_path = os.path.join(directory, template_filename)
 
 
 # コマンドライン引数から記事名を取り出す
@@ -37,6 +54,10 @@ if len(sys.argv) < 3:
 else:
     filetitle = sys.argv[2]
 
+
+filename = "{}-{}.markdown".format(datetime.datetime.now().strftime("%Y-%m-%d"), filetitle)
+new_article_path = os.path.join(article_dir, filename)
+
 print("記事の作成者のニックネームを教えて下さい")
 author = input()
 
@@ -48,20 +69,6 @@ attributes = {
     "date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S +0900")
 }
 
-
-# このディレクトリの絶対パスの生成
-# 日付と記事名を結合した新規マークダウン記事のファイル名の生成
-
-directory = os.path.join(os.path.abspath(os.path.dirname(__file__)), "..")
-article_dir = os.path.join(directory, "_posts")
-filename = "{}-{}.markdown".format(datetime.datetime.now().strftime("%Y-%m-%d"), filetitle)
-
-
-# テンプレートファイルの絶対パスの生成
-# 新規記事ファイルの絶対パスの生成
-
-template_path = os.path.join(directory, template_filename)
-new_article_path = os.path.join(article_dir, filename)
 
 
 # 新規記事ファイルをテンプレートを基に作成
