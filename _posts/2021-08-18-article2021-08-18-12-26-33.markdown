@@ -1,0 +1,19 @@
+---
+# template tags (but you can change these)
+
+layout: post
+category: article
+
+
+# tags user defined
+
+tags: sql postgresql snowflake
+lang: ja_JP
+title: PostgreSQLでSnowflake形式のIDをserialの代わりにする
+author: 3y
+date: 2021-08-18 12:26:47 +0900
+---
+
+Qiitaで記事を書きました
+
+https://qiita.com/logiteca7/items/025c92a1b026ce287d68
