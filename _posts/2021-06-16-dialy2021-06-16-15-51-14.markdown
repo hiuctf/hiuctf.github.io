@@ -1,0 +1,24 @@
+---
+# template tags (but you can change these)
+
+layout: post
+category: article
+
+
+# tags user defined
+
+tags: guide
+lang: ja_JP
+title: マークダウンテンプレート作成自動化
+author: 3y
+date: 2021-06-16 15:51:17 +0900
+---
+
+<!-- 3日くらいだらけていましたが今日からまた更新頑張ろう -->
+
+このサイトではマークダウンで記事を書いています。<br>
+静的サイトジェネレータjekyllが使っているLiquidがマークダウンを解釈してHTMLに変換してくれます
+
+ところで、Jekyllはcoffescriptというマークダウンの拡張規格をサポートしています<br>
+普通のマークダウン
+

@@ -1,0 +1,28 @@
+---
+# template tags (but you can change these)
+
+layout: post
+category: article
+
+
+# tags user defined
+
+tags: 日記
+lang: ja_JP
+title: dialy2021-06-09-10-08-45
+author: 3y
+date: 2021-06-09 10:08:49 +0900
+hide_in_home: True
+---
+
+[〇〇好きそう型誹謗中傷](https://shohgaisha.com/column/grown_up_detail?id=1785)という記事を読んだ<br>
+きっかけはある動画のコメントで「電車好きは発達」とか「発達かどうかの診断に電車好きの質問項目がある」といった誹謗中傷を見たこと（発達は発達障害のことを指しています）<br>
+電車好きとしては看過できない反面、確かに白い目で見られることも多い人種である感覚はある<br>
+上のコメントは明らかに誹謗（悪く言うこと）目的ですが、中傷（無根のデマを流すこと）には本当に当てはまるのかが今回のテーマ
+
+## そもそものコメントの論法
+記事にある通り「〇〇が好きそう型」構文はハラスメントシーンでの常套手段で、ネットでもこの構文を多用する人は存在します<br>
+
+
+
+[午後ティー炎上](https://www.huffingtonpost.jp/2018/04/30/kirin-gogotea_a_23424066/)

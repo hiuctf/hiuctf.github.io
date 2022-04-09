@@ -12,7 +12,7 @@ lang: ja_JP
 author: 3y
 title: Pythonことはじめ
 date: 2021-06-04 10:36:16 +0900
-last-update: 2021-06-04 14:29:44 +0900
+modified_date: 2021-06-04 14:29:44 +0900
 ---
 
 はじめまして、{{ page.author }}です。<br>

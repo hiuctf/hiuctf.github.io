@@ -1,0 +1,3 @@
+import blogtools
+
+blogtools.TTYnav

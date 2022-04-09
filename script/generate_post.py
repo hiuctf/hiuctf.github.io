@@ -10,7 +10,7 @@ import sys
 import datetime
 import shutil as sh
 
-import blogtools
+#import blogtools
 
 
 # デフォルトのテンプレートファイル
